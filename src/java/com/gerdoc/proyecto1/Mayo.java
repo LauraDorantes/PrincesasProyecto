@@ -41,10 +41,14 @@ public class Mayo extends HttpServlet {
             out.println("<head>");
             out.println("<title>Mayo</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Bella</h1></center>");
-            out.println("<img src=\"Bella.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#FFF984\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#FFB500'>Bella</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Bella.jpeg\" align = \"bottom\" width=\"290\" height=\"395\" alt=\"\" /></td>\n" +
+                            "<td><blockquote><h2><center>Eres muy compasiva y cuidas de los necesitados. Puedes ser terca y siempre tratas de proteger a la gente que realmente amas. También eres muy paciente con los demás. Una soñadora y una verdadera amante de la fantasía y la aventura.</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

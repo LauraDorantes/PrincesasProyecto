@@ -41,10 +41,14 @@ public class Julio extends HttpServlet {
             out.println("<head>");
             out.println("<title>Julio</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Jasmin</h1></center>");
-            out.println("<img src=\"Jasmine.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#B6FFFE\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#059B9A'>Jasmín</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Jasmine.jpeg\" align = \"bottom\" width=\"290\" height=\"390\" alt=\"\" /></td>\n" +
+                            "<td><blockquote><h2>Tienes un carácter firme y convicciones propias. No temes luchar por lo que crees justo. Eres inteligente, astuta, tal vez un poco arrogante y testaruda, pero con mucha fuerza de voluntad y mucho amor para dar. Y siempre en busca por un mundo ideal.<center></center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

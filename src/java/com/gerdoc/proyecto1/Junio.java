@@ -41,10 +41,14 @@ public class Junio extends HttpServlet {
             out.println("<head>");
             out.println("<title>Junio</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Elsa</h1></center>");
-            out.println("<img src=\"Elsa.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#87DAFF\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#006AD6'>Elsa</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Elsa.jpeg\" align = \"bottom\" width=\"190\" height=\"350\" alt=\"\" /></td>\n" +
+                            "<td><blockquote><h2><center>Eres tranquila, reservada, de elegante apariencia, sin embargo eres bastante compleja. Eres muy sensible hacia otras personas y su bienestar, sientes que tienes que estar lejos de la gente tanto como sea posible con el fin de mantenerlos lo más seguros posible.  Reprimes tus habilidades en vez de hacerlas crecer, dejate llevar por la vida.</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");
