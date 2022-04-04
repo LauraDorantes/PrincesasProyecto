@@ -41,10 +41,14 @@ public class Noviembre extends HttpServlet {
             out.println("<head>");
             out.println("<title>Noviembre</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Tiana</h1></center>");
-            out.println("<img src=\"Tiana.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#A9F7AA\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#166217'>Tiana</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Tiana.jpeg\" align = \"bottom\" width=\"290\" height=\"390\" alt=\"\" /></td>\n" +
+                            "<td><blockquote><h2>Eres una chica inteligente, ingeniosa y llena de talento. A veces te gana el estrés y la tensión porque te apasionas con la escuela o el trabajo. No temes decir lo que piensas ni revelarte frente a las personas que opacan tu brillo.<center></center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

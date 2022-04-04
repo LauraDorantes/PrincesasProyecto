@@ -41,10 +41,18 @@ public class Diciembre extends HttpServlet {
             out.println("<head>");
             out.println("<title>Diciembre</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Mulan</h1></center>");
-            out.println("<img src=\"Mulan.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#ADF1EA\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#E74232'>Mulan</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Mulan.jpeg\" align = \"bottom\" width=\"400\" height=\"390\" alt=\"\" /></td>\n" +
+                            "<td><blockquote><h2>Como ya sabes, tú siempre tienes la iniciativa y tomas las decisiones en cualquier tipo de situaciones.\n" +
+"                           \n" +
+"                           Así que como Mulan, eres capaz de transformarte en lo que sea necesario con tal de luchar contra las adversidades.\n" +
+                            "\n" +
+                            "<center></center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");
