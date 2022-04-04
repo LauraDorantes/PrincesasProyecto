@@ -41,10 +41,15 @@ public class Octubre extends HttpServlet {
             out.println("<head>");
             out.println("<title>Octubre</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Cenicienta</h1></center>");
-            out.println("<img src=\"Cenicienta.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            
+            out.println("<body BGCOLOR = \"#ADD8E6\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#FFD700'>Cenicienta</font></h1></center>");            
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Cenicienta.jpeg\" align = \"bottom\" width=\"350\" height=\"250\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center>Te preocupas mucho por satisfacer las necesidades de los demás, pues es tanta tu amabilidad y solidaridad que siempre dejas tus emociones y deseos al último. Lo das todo por tu pareja, ¡eres una romántica empedernida en busca de su historia de amor!.</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

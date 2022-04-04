@@ -41,10 +41,16 @@ public class Septiembre extends HttpServlet {
             out.println("<head>");
             out.println("<title>Septiembre</title>");            
             out.println("</head>");
-            out.println("<body>");
-            out.println("<center><h1>Moana</h1></center>");
-            out.println("<img src=\"Mohana.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            
+            out.println("<body BGCOLOR = \"#00FFFF\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#00008B'> Moana </font></h1></center>");
+            
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Mohana.jpeg\" align = \"bottom\" width=\"390\" height=\"250\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center>Eres una aventurera, prácticamente sin miedo a lo que se te presenta y físicamente eres capaz de lo que te propones. a pesar que tienes momentos de dudas tienes un gran orgullo sobre lo que ers, aunque eres demasiado terca para alejarte de nuevos retos muchas veces estos te resultan favorables.</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

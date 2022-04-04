@@ -42,9 +42,14 @@ public class Agosto extends HttpServlet {
             out.println("<title>Agosto</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<center><h1>Pocahontas</h1></center>");
-            out.println("<img src=\"Pocahontas.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#FFA07A\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#FA8072'>Pocahontas</font></h1></center>");
+           out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Pocahontas.jpeg\" align = \"bottom\" width=\"250\" height=\"395\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center>Eres astuta, sencilla y sumamente espiritual. Siempre ofreces orientación a las personas que buscan tu ayuda porque eres demasiado noble y fiel con quienes quieres. Adoras la naturaleza y siempre estás en contacto con ella..</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");
