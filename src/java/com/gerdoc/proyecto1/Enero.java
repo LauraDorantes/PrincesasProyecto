@@ -42,9 +42,14 @@ public class Enero extends HttpServlet {
             out.println("<title>Enero</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<center><h1>Ariel</h1></center>");
-            out.println("<img src=\"Ariel.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#5dade2\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color =#f9e79f> Ariel</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Ariel.jpeg\" align = \"bottom\" width=\"250\" height=\"395\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center> Eres una persona brillante, muy animada y obstinada con una fuerte pasión por la aventura y la exploración, Tu tendencia a explorar las cosas muy a fondo puede que aveces te meta en una serie de problemas para ti mismo y personas que quieres, sin embargo gracias a tu compasión siempre asumes la responsabilidad de tus actos y encuentras la manera de resolver los problemas. </center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

@@ -44,7 +44,7 @@ public class Agosto extends HttpServlet {
             out.println("<body>");
             out.println("<body BGCOLOR = \"#FFA07A\">");
             out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#FA8072'>Pocahontas</font></h1></center>");
-           out.println("<center><table>\n" +
+            out.println("<center><table>\n" +
                             "<tr>\n" +
                             "<td><blockquote><img src=\"Pocahontas.jpeg\" align = \"bottom\" width=\"250\" height=\"395\" alt=\"\" /><br></td>\n" +
                             "<td><blockquote><h2><center>Eres astuta, sencilla y sumamente espiritual. Siempre ofreces orientación a las personas que buscan tu ayuda porque eres demasiado noble y fiel con quienes quieres. Adoras la naturaleza y siempre estás en contacto con ella..</center></h2></td>\n" +

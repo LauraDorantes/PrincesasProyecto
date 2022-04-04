@@ -42,9 +42,14 @@ public class Febrero extends HttpServlet {
             out.println("<title>Febrero</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<center><h1>Merida</h1></center>");
-            out.println("<img src=\"Merida.jpeg\" width=\"300\" height=\"550\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#1abc9c\">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = '#f7dc6f'>Merida</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Merida.jpeg\" align = \"bottom\" width=\"350\" height=\"600\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center>Eres de personalidad audaz, valiente, atrevida, obstinada y rebelde que no encajas en el estereotipo de la niña de papá. En lugar de ser una princesa en apuros esperando a ser rescatada, tu misma buscas la manera de librarte de los apuros, te gusta desafiar los estándares sociales y lo que menos quieres es ser una chica normal.</center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
             out.println("</html>");

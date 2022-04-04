@@ -35,19 +35,25 @@ public class Marzo extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             
             String url = "Menu.jsp";
-            
+                        
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Marzo</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<center><h1>Blancanieves</h1></center>");
-            out.println("<img src=\"Blancanieves.jpeg\" width=\"500\" height=\"350\" alt=\"\" /><br>");
-            out.println("<br><br><br><br>");
+            out.println("<body BGCOLOR = \"#f4d03f \">");
+            out.println("<center><h1 face = 'Luminari'><font size = '8' color = #e74c3c>Blancanieves</font></h1></center>");
+            out.println("<center><table>\n" +
+                            "<tr>\n" +
+                            "<td><blockquote><img src=\"Blancanieves.jpeg\" align = \"bottom\" width=\"250\" height=\"395\" alt=\"\" /><br></td>\n" +
+                            "<td><blockquote><h2><center>Eres bien conocida por tu amabilidad y optimismo las cuales son tus mayores fortalezas y las que te han guiado con seguridad a través de las diversas dificultades que la vida te ha presentado. Para ti es muy rápido ganarte el encanto de la gente y su confianza, y tu belleza no solo es exterior si no que también tienes una belleza interior como lo es tu corazón puro. </center></h2></td>\n" +
+                            "</tr>\n" +
+                            "</table></center>\n");
             out.println("<br><a href =\"" + url + "\"><img src=\"button_regresar.png\" align = \"right\"></a><br>");
             out.println("</body>");
-            out.println("</html>");        }
+            out.println("</html>");
+        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
